@@ -28,3 +28,8 @@ firebase emulators:start
 - Upload images
 - Dynamic images
 - Automated Firebase document creation
+
+===== Difficulties =====
+
+- Identify why routes are not working
+- Identify how to properly upload a JSON to firebase
