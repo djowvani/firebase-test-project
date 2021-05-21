@@ -1,0 +1,101 @@
+{
+  "cssParts": {
+    "headerStyle": " display: flex;  justify-content: center;  width: 100%; height: 200px; background: silver; background-image: url(https://firebasestorage.googleapis.com/v0/b/menoo-fans.appspot.com/o/profiles-arts%2Ftitos-bar%2Ftitos-bg-3d-white.svg?alt=media&token=1a462fef-4dee-4047-b25d-2b9555fce71a); background-repeat: repeat; /*background-size: cover; */",
+    "bodyStyle": "background: #BFBFBF;",
+    "imgLogoStyle": "align-self: center;"
+  },
+  "saUserId": "2hyjv4bbD4ZLwDoM93WPSAesm2aa",
+  "menuUrl": "http://menoo.fans/profile/titos",
+  "logoUrl": "https://firebasestorage.googleapis.com/v0/b/menoo-fans.appspot.com/o/profiles-arts%2Ftitos-bar%2Ftitos-logo.png?alt=media&token=59a85fa4-6e2f-4b69-86b4-d933d9916b93",
+  "sections": [
+    {
+      "name": "Pratos favoritos",
+      "items": [
+        {
+          "name": "Filet Mignon a Parmegiana",
+          "photoUrl": "",
+          "itemSequence": 1,
+          "prices": [
+            70,
+            100,
+            130
+          ],
+          "description": "Filet Mignon macio, servido generosamente com muito queijo, acompanhado de arroz e fritas. Molho de tomate caseiro. Memorável."
+        },
+        {
+          "prices": [
+            40,
+            80,
+            120
+          ],
+          "name": "Escalope de Mignon com Risoto",
+          "photoUrl": "",
+          "itemSequence": 2,
+          "description": "Mignon ao molho madeira, acompanhado com um risoto incrível que você pode escolher: queijo parmesão ou poivre"
+        }
+      ],
+      "description": "Os nossos pratos premiados e favoritos que vale a pena conhecer",
+      "cssParts": {
+        "h1Style": "color:#ef5423; font-size: 1.5em;",
+        "sectionBackgroundStyle": "background: #D9D9D9;",
+        "h2Style": "color:#562015; font-size: 0.8em; font-weight: lighter; font-style: italic;",
+        "itemStyle": "background: #f3f3f3; color: black; box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);"
+      },
+      "sectionSequence": 1
+    },
+    {
+      "items": [
+        {
+          "itemSequence": 1,
+          "name": "Refrigerante de Lata",
+          "description": "Temos Coca-cola (normal ou zero), Guaraná Antártica (normal ou zero), H2O ou H2O Limoneto e Fanta laranja.",
+          "photoUrl": "",
+          "prices": [
+            7
+          ]
+        },
+        {
+          "name": "Suco de Laranja 500ml",
+          "prices": [
+            12
+          ],
+          "photoUrl": "",
+          "description": "Suco natural, feito na hora para você. Peça ao garçom com gelo ou sem, adoçado ou natural.",
+          "itemSequence": 1
+        }
+      ],
+      "sectionSequence": 2,
+      "name": "Bebidas",
+      "cssParts": {
+        "itemStyle": "background: #f3f3f3; color: black;     box-shadow:0 10px 16px 0 rgba(252, 250, 250, 0.2),0 6px 20px 0 rgba(0,0,0,0.19);",
+        "h2Style": "color:#ffffff; font-size: 0.8em; font-weight: lighter; font-style: italic;",
+        "h1Style": "color:#FFFFFf; font-size: 1.5em;",
+        "sectionBackgroundStyle": "background: #013448;"
+      },
+      "description": "Nossas bebidas."
+    }
+  ],
+  "contactInfo": {
+    "whatsAppIconStyle": "filter:invert(1); vertical-align: middle;",
+    "whatsAppUrlOpenNewConversation": "https://wa.me/5519974137098",
+    "locationMaps": "https://www.google.com/maps/dir//Google+Place+Titos+Bar/@-22.8003221,-47.3098387,14z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c8bd420a90b203:0xa09278f251386dde!2m2!1d-47.272929!2d-22.820879",
+    "phoneIconStyle": "filter:invert(1); vertical-align: middle;",
+    "whatsAppUrlOpenNewConversationStyle": "color: #E2C275; vertical-align: middle;",
+    "locationIconStyle": "filter:invert(1); vertical-align: middle;",
+    "whatsAppTextNumber": "(19)97413-7098",
+    "locationText": "Av. Rebouças, 2193 - Centro, Sumaré - SP, 13170-023",
+    "contactInfoMainStyle": "color: #E2C275; font-size: medium; background: black; text-align: center;",
+    "phoneUrlOpenDialerLinkStyle": "color: #E2C275; vertical-align: middle;",
+    "phoneText": "(19)3828-8059",
+    "logoStyle": "margin: 2em auto;filter:grayscale(1) sepia(1) brightness(3);width:20%;",
+    "phoneIcon": "https://firebasestorage.googleapis.com/v0/b/menoo-fans.appspot.com/o/footer-arts%2Fphone-default.png?alt=media&token=9156d9bf-c135-4a34-b92d-14849a6aa4b9",
+    "locationMapsLinkStyle": "color: #E2C275; vertical-align: middle;",
+    "phoneUrlOpenDialer": "tel:+55(19)3828-8059",
+    "locationIcon": "https://firebasestorage.googleapis.com/v0/b/menoo-fans.appspot.com/o/footer-arts%2Flocation-default.png?alt=media&token=874afcc9-c7d7-42d2-87ee-8cebce250b4f",
+    "infoDetailsText": "Terça a Sexta das 11h às 23h - Sábado e Domingo das 11h às 22h",
+    "whatsAppIcon": "https://firebasestorage.googleapis.com/v0/b/menoo-fans.appspot.com/o/footer-arts%2Fwhatsapp-default.png?alt=media&token=3c171b69-3596-4190-8fa1-479277699848"
+  },
+  "shortName": "titos",
+  "name": "Tito's Bar",
+  "saEmail": "mateus@teste.com.br"
+}

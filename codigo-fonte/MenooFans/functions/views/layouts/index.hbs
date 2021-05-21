@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{menoo.name}}</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script>
+        setTimeout(function(){
+            location.reload();
+        },600000);
+    </script>
+</head>
+<body style="{{menoo.cssParts.bodyStyle}}">
+<div id="wrapper">
+    <div id="header" style="{{menoo.cssParts.headerStyle}}">
+        <img src="{{menoo.logoUrl}}" style="{{menoo.cssParts.imgLogoStyle}}"/>
+    </div>
+    <div id="menu">
+        {{#each menoo.sections}}
+            <div class="menu-section" style="{{this.cssParts.sectionBackgroundStyle}}">
+                <h1 style="{{this.cssParts.h1Style}}">{{this.name}}</h1>
+                <h2 style="{{this.cssParts.h2Style}}">{{this.description}}</h2>
+                {{#each this.items}}
+                    <div class="item" style="{{../this.cssParts.itemStyle}}">
+                        <div class="itemTitle">{{this.name}}{{#isSinglePrice this.prices}}
+                            - R$ {{numberFormat this.prices thousandsSep="." decimalSep=","}}{{/isSinglePrice}}</div>
+                        <div class="itemDescription">{{this.description}}</div>
+                        {{#isSinglePrice this.prices}}
+                        {{else}}
+                            <div class="priceBox">
+                                <ul>
+                                    {{#each prices}}
+                                        <li><i class="material-icons">{{choosePriceIcon @index}}</i>
+                                            R$ {{numberFormat this thousandsSep="." decimalSep=","}}</li>
+                                    {{/each}}
+                                </ul>
+                            </div>
+                        {{/isSinglePrice}}
+                    </div>
+                {{/each}}
+            </div>
+        {{/each}}
+    </div>
+    <div id="contact-info" style="{{menoo.contactInfo.contactInfoMainStyle}}">
+        <p>
+            <img src="{{menoo.logoUrl}}" style="{{menoo.contactInfo.logoStyle}}"/>
+        </p>
+        <div id="content-info" style="text-align: left; width: 70%; margin: 0 auto;">
+            <p>{{menoo.contactInfo.infoDetailsText}}</p>
+            <p style="margin-top: 10px;">
+                <img src="{{menoo.contactInfo.locationIcon}}" style="{{menoo.contactInfo.locationIconStyle}}" width="26px"/>
+                <a href="{{menoo.contactInfo.locationMaps}}" style="{{menoo.contactInfo.locationMapsLinkStyle}}">{{menoo.contactInfo.locationText}}</a>
+            </p>
+            <p style="margin-top: 10px;">
+                <img src="{{menoo.contactInfo.phoneIcon}}" style="{{menoo.contactInfo.phoneIconStyle}}" width="26px"/>
+                <a href="{{menoo.contactInfo.phoneUrlOpenDialer}}" style="{{menoo.contactInfo.phoneUrlOpenDialerLinkStyle}}">{{menoo.contactInfo.phoneText}}</a>
+            </p>
+            <p style="margin-top: 10px;">
+                <img src="{{menoo.contactInfo.whatsAppIcon}}" style="{{menoo.contactInfo.whatsAppIconStyle}}" width="26px"/>
+                <a href="{{menoo.contactInfo.whatsAppUrlOpenNewConversation}}" style="{{menoo.contactInfo.whatsAppUrlOpenNewConversationStyle}}">{{menoo.contactInfo.whatsAppTextNumber}}</a>
+            </p>
+        </div>
+    </div>
+    <div id="footer">
+        <p><strong>2021 - Menoo.Fans - Cardápios inteligentes</strong></p>
+        <p>&copy;Todos os Direitos Reservados</p>
+    </div>
+</div>
+</body>
+</html>
