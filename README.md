@@ -9,6 +9,14 @@ Versão do Node: v14.16.0
 
 ===== Comandos CLI usuais =====
 
+Grupo:
+- Giovani Anhesini Bezerra (17172164)
+- Haniel de Jesus Biazon (18011643)
+- Luis Felipe Tomazin Prearo (17106204)
+- Paulo Pyles Corral (17138264)
+
+===== Comandos CLI usuais =====
+
 npm install
 firebase login -g firebase-tool
 firebase deploy
