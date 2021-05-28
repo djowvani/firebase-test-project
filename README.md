@@ -7,7 +7,7 @@ URL do repositório: https://github.com/djowvani/firebase-test-project
 URL da aplicação hosteada: https://proj-manutencao.web.app/
 Versão do Node: v14.16.0
 
-===== CLI Commands =====
+===== Comandos CLI usuais =====
 
 npm install
 firebase login -g firebase-tool
