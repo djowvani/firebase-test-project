@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "14782941375",
+    "firebase_url": "https://proj-manutencao-default-rtdb.firebaseio.com",
+    "project_id": "proj-manutencao",
+    "storage_bucket": "proj-manutencao.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14782941375:android:6f9833f0ca3f85dccc1e0a",
+        "android_client_info": {
+          "package_name": "com.example.meno_mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "14782941375-ott661qtnoj519gm4ptlhar2hkpt7kpp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEbOZVeRsk8IG6P_ghOr_4SjZMufR9Ghw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "14782941375-ott661qtnoj519gm4ptlhar2hkpt7kpp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
