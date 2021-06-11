@@ -61,7 +61,8 @@ class MyApp extends StatelessWidget {
       home: FutureBuilder(
         future: dbRef.once(),
         builder: (context, AsyncSnapshot<DataSnapshot> snapshot) {
-          // === Problematic Section ===
+          // Seção problemática, descomentar esse código responsável por buscar dados do Realtime Database resulta em "type 'Null' is not a subtype of type 'Map<dynamic, dynamic>'"
+
           // if (snapshot.hasData) {
           //   Map<dynamic, dynamic> values = snapshot.data!.value;
           //   values.forEach((key, values) {
@@ -83,7 +84,6 @@ class MyApp extends StatelessWidget {
           //         );
           //       });
           // }
-          // === Problematic Section ===
 
           if (snapshot.hasError) {
             print ('You have an error! ${snapshot.error.toString()}');
@@ -112,6 +112,8 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
 
+  // Na integração com o Realtime Database, enquanto a busca pelos dados resultou em um erro de tipagem que não foi possível identificarmos com precisão o motivo,
+  // nesta seção conseguimos inserir um dado no banco sem problemas
   void _incrementCounter() {
     DatabaseReference _testRef = FirebaseDatabase.instance.reference().child("test");
     _testRef.set("Hello world ${Random().nextInt(100)}");
